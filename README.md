@@ -1,4 +1,4 @@
-# Arm_Expression_Compiler
+# C_Expression_Compiler
 
 # Problem Statement
 To read expressions and statements from a text file and generate ARM assembly instructions
