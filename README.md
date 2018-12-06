@@ -143,7 +143,7 @@ dictionary of variable,value pairs
 ```
 # Team
 
-Tanay Srivastava () <br>
+Tanay Srivastava (https://github.com/tanay07021993) <br>
 Viswesh Bhaskara (https://github.com/Viswesh420) <br>
 Venkatesh Babu Jagarlamudi (https://github.com/venky871) <br>
 Amey Kulkarni (https://github.com/ameykulkarni123) <br>
