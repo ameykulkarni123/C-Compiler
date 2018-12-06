@@ -476,7 +476,7 @@ file_asm.close()
 
 if(build_flag):
     print "\nBuild flag set! Automatically buidling project with auto-generated asm file"
-    p = Popen("build.bat", cwd=r"C:\Users\Prashanthi S.K\Desktop\arm\compiler\Arm_Expression_Compiler")
+    p = Popen("build.bat", cwd=r"C:\Users\Venkatesh Babu Jagar\Documents\GitHub\C-Compiler")
     stdout, stderr = p.communicate()
     print "\nPrinting build log"
     build_log = open("log.txt")
