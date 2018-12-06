@@ -306,7 +306,7 @@ def p_expression_binop(p):#expression defined as a recursion on itself
     	return
  
 
-    if(p[1]==None):#if one operand is missing,use the register fromt the previous operation
+    if(p[1]==None):#if one operand is missing,use the register from the previous operation
         p[1]=_l
     if(p[3]==None):
         p[3]=_l
