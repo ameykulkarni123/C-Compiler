@@ -3,6 +3,9 @@ b=3
 c=4
 d=2
 e=1
-k=7
-l=9
-i=k+l
+g=a+b-c*d/a%e
+a>b?f=5:f=3
+if a<b then f=5 else g=3
+a>>d
+c<<e
+h=a%b
