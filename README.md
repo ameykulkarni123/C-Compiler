@@ -141,40 +141,13 @@ dictionary of variable,value pairs
  'h': 'r7'}
 
 ```
-
-# Snap
-
-Now this is available as a snap package at [here](https://snapcraft.io/aec-arm/) <br>
-
-![image](https://user-images.githubusercontent.com/19650574/34045423-d4000262-e1ce-11e7-9884-96a9b24165fb.png)
-
-### Snap Installation
-
-```sh
-
-$ sudo snap install aec-arm
-
-```
-
-### Snap Usage Instructions
-
-```sh
-
-$ aec-arm <input_file.txt>
-
-```
-An output file will be generated with name as autogen.s in the current working directory which can be run on keil simulator on successful execution.
-
 # Team
 
-Deepika Raj (https://github.com/depikaraj) <br>
-Prashanthi Kadambi (https://github.com/amateurcoder10) <br>
-Seelapureddy Venkata Rama Aditya Reddy (https://github.com/SvrAdityaReddy) <br>
+Tanay Srivastava (https://github.com/depikaraj) <br>
+Viswesh Bhaskara (https://github.com/amateurcoder10) <br>
+Venkatesh Babu Jagarlamudi (https://github.com/venky871) <br>
+Amey Kulkarni (https://github.com/ameykulkarni123) <br>
 
 # References
 [1] [Writing Parsers and Compilers with PLY by David Beazley](https://speakerdeck.com/dabeaz/writing-compilers-in-python-with-ply)<br>
 [2] [Python Lex-Yacc](https://github.com/dabeaz/ply/)<br>
-[3] [Create your first snap](https://tutorials.ubuntu.com/tutorial/create-your-first-snap)<br>
-[4] [The python plugin](https://docs.snapcraft.io/reference/plugins/python)<br>
-[5] [Python Apps the Right Way: entry points and scripts](https://chriswarrick.com/blog/2014/09/15/python-apps-the-right-way-entry_points-and-scripts/)<br>
-[6] [Interfaces reference](https://docs.snapcraft.io/reference/interfaces)
