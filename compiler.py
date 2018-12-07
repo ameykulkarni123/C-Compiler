@@ -344,7 +344,7 @@ def p_expression_binop(p):#expression defined as a recursion on itself
             print "division by zero error"
             print "register dump "
             print rg
-            os.remove("autogen.s")
+            os.remove("%s.s" %x)
             print "asm file not generated"
             exit(ZeroDivisionError)
 
@@ -361,7 +361,7 @@ def p_expression_binop(p):#expression defined as a recursion on itself
             print "modulus by zero is not defined"   
             print "register dump "
             print rg
-            os.remove("autogen.s")
+            os.remove("%s.s" %x)
             print "asm file not generated"
             exit(ZeroDivisionError)
                 
