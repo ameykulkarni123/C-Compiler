@@ -469,15 +469,3 @@ with open(sys.argv[1]) as f:
     
 file_asm.write(asm_end)
 file_asm.close()
-<<<<<<< HEAD
-=======
-
-if(build_flag):
-    print "\nBuild flag set! Automatically buidling project with auto-generated asm file"
-    p = Popen("build.bat", cwd=r"C:\Users\Venkatesh Babu Jagar\Documents\GitHub\C-Compiler")
-    stdout, stderr = p.communicate()
-    print "\nPrinting build log"
-    build_log = open("log.txt")
-    for line in build_log:
-        print line,
->>>>>>> 3284ef39011346c5c7e091a807fa4f0206642092
