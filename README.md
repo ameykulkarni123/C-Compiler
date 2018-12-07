@@ -24,6 +24,14 @@ PLY stands for Python Lex and Yacc. It is a Python version of Lex and Yacc that 
 functionality as Lex and Yacc but has a different interface with ample support for debugging.
 Simply put, it provides an easy way to write a compiler.
 
+#Usage
+```{python}:
+
+python compiler.py input.txt output
+Here input.txt file is the text file containing the C Expressions
+output is the name of the file where the result must be generated. The file generated will be a '.s' file so you need not add .s to the target file
+
+```
 # Lexing
 Tokens are defined either using regular expressions or functions in the code for the lexer. The
 lexer splits up the input file into these tokens.

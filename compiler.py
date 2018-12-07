@@ -316,7 +316,6 @@ def p_expression_binop(p):#expression defined as a recursion on itself
 
     if p[2] == '+':#addition
         rg[p[0]]=rg[p[1]]+rg[p[3]]
-     
         instr="ADD " + p[0] + " ,"+p[1] +" ,"+p[3]
         print instr
         file_asm.write("\t"+instr+"\n")
@@ -452,14 +451,11 @@ def p_error(p):
 #build the parser
 import ply.yacc as yacc
 yacc.yacc()
-
-file_asm = open("autogen.s",'w')
+x = sys.argv[2]
+file_asm = open("%s.s" %x,'w')
 file_asm.write(asm_beg)
-
-build_flag=1#set to 1 to enable automatic buidling
-
 #open the input file and parse it line by line
-with open("input.txt") as f:
+with open(sys.argv[1]) as f:
     for line in f:
         yacc.parse(line)
     print "\ndebug output:\n"
@@ -473,6 +469,8 @@ with open("input.txt") as f:
     
 file_asm.write(asm_end)
 file_asm.close()
+<<<<<<< HEAD
+=======
 
 if(build_flag):
     print "\nBuild flag set! Automatically buidling project with auto-generated asm file"
@@ -482,3 +480,4 @@ if(build_flag):
     build_log = open("log.txt")
     for line in build_log:
         print line,
+>>>>>>> 3284ef39011346c5c7e091a807fa4f0206642092
